@@ -1,0 +1,14 @@
+{
+  "name": "frontend-14",
+  "version": "1.0.0",
+  "description": "![Design preview for the Bookmark landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile-css": "npx tailwindcss -i ./css/style.css -o ./dist/output.css --watch"
+  },
+  "author": "Erick ngechu",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
