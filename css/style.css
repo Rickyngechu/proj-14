@@ -121,4 +121,17 @@
     display: grid;
     gap: 3rem;
   }
+
+  /* The apps section */
+  .item {
+    box-shadow: hsla(231, 69%, 60%, 0.32) 0px 5px 15px 0px;
+
+    @apply rounded-md text-center py-5 flex flex-col gap-8;
+  }
+  .card-heading {
+    @apply block text-Very-Dark-Blue font-medium text-lg tracking-normal;
+  }
+  .card-text {
+    @apply text-Grayish-Blue text-sm;
+  }
 }
