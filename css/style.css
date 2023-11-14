@@ -134,4 +134,6 @@
   .card-text {
     @apply text-Grayish-Blue text-sm;
   }
+
+  /* stroke and fill for the icons */
 }
