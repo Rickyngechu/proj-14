@@ -136,4 +136,36 @@
   }
 
   /* stroke and fill for the icons */
+  .faq-item {
+    border-bottom: 1px solid hsla(0, 0%, 20%, 0.395);
+  }
+  .arr-svg {
+    stroke: #5267df;
+    transition: all 0.4s;
+  }
+  .arr-svg-toggle {
+    stroke: hsl(0, 94%, 66%);
+    transform: rotate(180deg);
+  }
+  .btn-acc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .faq-det-txt {
+    /* display: block; */
+    opacity: 1;
+    height: 38vh;
+    transition: all 0.4s;
+  }
+
+  /* Class that hides the faq txt */
+  .hide-faq-txt {
+    display: none;
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+  }
 }
