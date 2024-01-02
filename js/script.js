@@ -37,6 +37,6 @@ btnAcc.forEach(btn =>
       .querySelector(`.arr-svg--${target.dataset.tab}`)
       .classList.toggle("arr-svg-toggle");
 
-    console.log(document.querySelector(`.arr-svg`));
+    // console.log(document.querySelector(`.arr-svg`));
   })
 );
