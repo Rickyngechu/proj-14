@@ -9,6 +9,7 @@ btnCont.addEventListener("click", function (e) {
   const target = e.target.closest(".tabbed_btn");
   // console.log(target);
 
+  if (!target) return;
   // Remove the class list
   btnsTab.forEach(btn => btn.classList.remove("selected-btn"));
   tabItems.forEach(item => item.classList.remove("showtab-item"));

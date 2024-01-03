@@ -40,22 +40,22 @@
           />
           <ul class="navigation max-md:hidden md:flex items-center gap-14 px-8">
             <li
-              class="nav-link md:hover:text-Soft-Red transition-all uppercase text-xs tracking-widest"
+              class="nav-link md:hover:text-Soft-Red transition-all uppercase text-sm tracking-widest"
             >
               <a href="#">Features</a>
             </li>
             <li
-              class="nav-link md:hover:text-Soft-Red transition-all uppercase text-xs tracking-widest"
+              class="nav-link md:hover:text-Soft-Red transition-all uppercase text-sm tracking-widest"
             >
               <a href="#">Pricing</a>
             </li>
             <li
-              class="nav-link md:hover:text-Soft-Red transition-all uppercase text-xs tracking-widest"
+              class="nav-link md:hover:text-Soft-Red transition-all uppercase text-sm tracking-widest"
             >
               <a href="#">Contact</a>
             </li>
             <li
-              class="nav-link login-btn md:hover:text-Soft-Red transition-all uppercase text-xs tracking-widest"
+              class="nav-link login-btn md:hover:text-Soft-Red transition-all uppercase text-sm tracking-widest"
             >
               <a href="#">Login</a>
             </li>
@@ -109,7 +109,7 @@
             </div>
           </div>
 
-          <div class="tabbed-container relative">
+          <div class="tabbed-container relative overflow-hidden py-8">
             <div
               class="tabbed-btns flex flex-col md:flex-row md:justify-center md:gap-[5rem] justify-center py-5 my-7"
             >
@@ -119,52 +119,67 @@
               ><button class="tabbed_btn" data-tab="3">Easy Sharing</button>
             </div>
             <div
-              class="tabbed__item tabbed__item--1 showtab-item md:flex md:items-center"
+              class="tabbed__item tabbed__item--1 showtab-item md:items-center gap-16 max-sm:flex-col"
             >
-              <div class="img md:w-[50%]">
+              <div class="img md:w-1/2">
                 <img
                   src="images/illustration-features-tab-1.svg"
                   alt="illustration 1"
                 />
               </div>
-              <div class="tab-content text-center md:text-left md:w-[50%]">
+              <div class="tab-content text-center md:text-left md:w-1/2">
                 <h2 class="sub-heading">Bookmark in one click</h2>
-                <p class="sub-text">
+                <p class="sub-text mb-8">
                   Organise your bookmarks however you like.Our simple
                   drag-and-drop interface gives you complete control over how
                   you manage your favourite sites.
                 </p>
+                <a href="#" class="btn bg-Soft-Blue text-white text-[12px]"
+                  >Get it on Chrome</a
+                >
               </div>
             </div>
-            <div class="tabbed__item tabbed__item--2">
-              <div class="img">
+            <div
+              class="tabbed__item tabbed__item--2 md:items-center gap-16 max-sm:flex-col"
+            >
+              <div class="img md:w-1/2">
                 <img
                   src="images/illustration-features-tab-2.svg"
                   alt="illustration 2"
                 />
               </div>
-              <div class="tab-content text-center">
+              <div
+                class="tab-content text-center md:text-left md:w-1/2 max-sm:flex max-sm:flex-col"
+              >
                 <h2 class="sub-heading">Inteligent search</h2>
-                <p class="sub-text">
+                <p class="sub-text mb-8">
                   Our powerful search feature will help you find saed sites in
                   no time at all.No need at all.No need to trawl through all of
                   your bookmarks.
                 </p>
+                <a href="#" class="btn bg-Soft-Blue text-white text-[12px]"
+                  >Get it on Chrome</a
+                >
               </div>
             </div>
-            <div class="tabbed__item tabbed__item--3">
-              <div class="img">
+            <div
+              class="tabbed__item tabbed__item--3 md:items-center gap-16 max-sm:flex-col"
+            >
+              <div class="img md:w-1/2">
                 <img
                   src="images/illustration-features-tab-3.svg"
                   alt="illustration 3"
                 />
               </div>
-              <div class="tab-content text-center">
+              <div class="tab-content text-center md:text-left md:w-1/2">
                 <h2 class="sub-heading">Share your bookmarks</h2>
-                <p class="sub-text">
+                <p class="sub-text mb-8">
                   Easily share your bookmarks and collections with others.Create
                   a shareable link that you can send at the click of a button.
                 </p>
+                <a href="#" class="btn bg-Soft-Blue text-white text-[12px]"
+                  >Get it on Chrome</a
+                >
               </div>
             </div>
           </div>
@@ -174,7 +189,7 @@
       <section class="section-apps py-12">
         <div class="cont mx-auto px-5 md:px-8 max-w-[90rem]">
           <div class="apps-cont">
-            <div class="app-text-det text-center w-[60%] mx-auto">
+            <div class="app-text-det text-center max-w-2xl mx-auto">
               <h2 class="sub-heading">Download the extension</h2>
               <p class="sub-text">
                 We've got more browsers in the pipeline.Please do let us know if
@@ -241,7 +256,7 @@
       </section>
 
       <section class="section-faq py-10">
-        <div class="cont px-5 md:px-8 max-w-[90rem]">
+        <div class="cont mx-auto px-5 md:px-8 max-w-[90rem]">
           <div class="faq-cont">
             <div class="faq-header text-center mb-9">
               <h2 class="sub-heading">Frequently Asked Questions</h2>
@@ -377,7 +392,7 @@
       </section>
 
       <section class="callToAction py-12 bg-Soft-Blue">
-        <div class="cont md:px-8 max-w-[90rem]">
+        <div class="cont mx-auto px-5 md:px-8 max-w-[90rem]">
           <div class="call-to-actionCt text-center">
             <span
               class="text-white font-medium text-sm uppercase tracking-[5px] mb-6 inline-block"
@@ -407,7 +422,7 @@
       </section>
     </main>
     <footer class="section-footer py-8 bg-Very-Dark-Blue">
-      <div class="cont md:px-8 max-w-[90rem]">
+      <div class="cont mx-auto px-5 md:px-8 max-w-[90rem]">
         <div
           class="footer flex flex-col gap-5 text-center md:flex-row md:justify-between"
         >
